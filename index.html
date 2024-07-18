@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+  </head>
+  <body onscroll="getScrollPosition()">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+    <script>
+      
+      function getScrollPosition() {
+        const scroll = window.scrollY
+        console.log(scroll)
+        if(scroll >=1){
+          document.getElementById('Navbar').classList.add('stickyNav');
+          document.getElementById('Navbar').classList.add('slide-in-top');
+        }
+        else{
+          document.getElementById('Navbar').classList.remove('stickyNav');
+          document.getElementById('Navbar').classList.remove('slide-in-top');
+        }
+      }
+
+      
+    </script>
+  </body>
+</html>
