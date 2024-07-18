@@ -35,7 +35,7 @@ const Navbar = () => {
       </nav>
       {button &&
         <div className='bg-gray-400 h-[100vh] bg-opacity-90 pt-20 pr-6 mt-2 w-full slide-in-left'>
-  <ul className='grid  place-content-center gap-28 text-2xl text-center font-bold'>
+  <ul className='grid  place-content-center gap-28 text-2xl text-center font-bold font-head '>
                 <li>Home</li>
                 <li >About</li>
                 <li >Blog</li>
