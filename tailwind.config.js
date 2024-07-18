@@ -71,6 +71,10 @@ module.exports = {
           to: { transform: "translateY(calc(-100% - var(--gap)))" },
         },
       },
+      fontFamily:{
+        head: "Poppins",
+        pragraph: "Mulish"
+      }
     },
   },
   plugins: [require("tailwindcss-animate")],

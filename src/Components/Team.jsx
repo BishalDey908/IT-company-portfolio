@@ -6,7 +6,7 @@ const Team = () => {
     <div>
     <section id="our-team" className=" py-32 ">
     <div className="container mx-auto px-4">
-        <h2 className="font-bold text-center text-primary 2xl:text-7xl 2xl:mb-24 xl:text-7xl xl:mb-28 lg:text-7xl lg:mb-28 md:mb-16 md:text-6xl md:mt-[-20px] mb-24 text-5xl">Our Expert Team</h2>
+        <h2 className="font-bold text-center text-primary 2xl:text-7xl 2xl:mb-24 xl:text-7xl xl:mb-28 lg:text-7xl lg:mb-28 md:mb-16 md:text-6xl md:mt-[-20px] mb-24 text-5xl font-head">Our Expert Team</h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 2xl:grid-cols-4 xl:grid-cols-3 lg:grid-cols-3 gap-8">
             {/* <!-- Team Member 1 --> */}
@@ -19,8 +19,8 @@ const Team = () => {
             </span>
             <div
                 className="mt-8 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
-                <h3 className="text-xl font-semibold  text-center ">John Doe</h3>
-                <p className=" text-center">Role: Software Engineer</p>
+                <h3 className="text-xl font-semibold  text-center font-head">John Doe</h3>
+                <p className=" text-center font-pragraph">Role: Software Engineer</p>
             </div>
         </div>
             </div>
@@ -35,8 +35,8 @@ const Team = () => {
             </span>
             <div
                 className="mt-8 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
-                <h3 className="text-xl font-semibold  text-center">Jane Smith</h3>
-                <p className=" text-center">Role: Graphic Designer</p>
+                <h3 className="text-xl font-semibold  text-center font-head">Jane Smith</h3>
+                <p className=" text-center font-pragraph">Role: Graphic Designer</p>
             </div>
         </div>
             </div>
@@ -50,8 +50,8 @@ const Team = () => {
             </span>
             <div
                 className="mt-8 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
-                <h3 className="text-xl font-semibold  text-center">Peter Johnson</h3>
-                <p className=" text-center">Role: Seo specialist</p>
+                <h3 className="text-xl font-semibold  text-center font-head">Peter Johnson</h3>
+                <p className=" text-center font-pragraph">Role: Seo specialist</p>
             </div>
         </div>
             </div>
@@ -65,8 +65,8 @@ const Team = () => {
             </span>
             <div
                 className="mt-8 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
-                <h3 className="text-xl font-semibold  text-center">Emily Brown</h3>
-                <p className=" text-center">Role: UX Designer</p>
+                <h3 className="text-xl font-semibold  text-center font-head">Emily Brown</h3>
+                <p className=" text-center font-pragraph">Role: UX Designer</p>
             </div>
         </div>
             </div>

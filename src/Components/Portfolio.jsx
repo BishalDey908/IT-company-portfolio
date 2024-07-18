@@ -7,8 +7,8 @@ const Portfolio = () => {
     <section className="bg-zinc-50 overflow-hidden">
  <div className="2xl:w-[90%] xl:w-[90%] lg:w-[95%] md:w-[90%] w-[80%] 2xl:h-[100vh] xl:h-[80vh] 2xl:max-w-screen-3xl px-8 md:px-12 mx-auto py-12 lg:py-24 space-y-24  flex flex-col justify-center">
     <div className='2xl:my-24 xl:my-24 lg:my-12 md:my-10 my-12 2xl:mt-0 xl:mt-0 lg:mt-0 md:mt-0 '>
-        <h1 className='2xl:text-6xl xl:text-7xl lg:text-6xl md:text-6xl text-5xl font-bold text-center '>Take A Look Our Portfolio</h1>
-        <p className='2xl:text-4xl xl:text-4xl lg:text-3xl md:text-4xl text-2xl text-center 2xl:mt-6 xl:mt-8 lg:mt-6 md:mt-6 mt-6'>Take A Look Our Portfolio</p>
+        <h1 className='2xl:text-6xl xl:text-7xl lg:text-6xl md:text-6xl text-5xl font-bold text-center font-head'>Take A Look Our Portfolio</h1>
+        <p className='2xl:text-4xl xl:text-4xl lg:text-3xl md:text-4xl text-2xl text-center 2xl:mt-6 xl:mt-8 lg:mt-6 md:mt-6 mt-6 font-pragraph'>Take A Look Our Portfolio</p>
     </div>
   <div className="flex flex-col sm:flex-row mx-auto">
    {/* <!--- Starts component --> */}

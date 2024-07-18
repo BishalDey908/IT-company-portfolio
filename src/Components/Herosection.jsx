@@ -26,13 +26,13 @@ const Herosection = () => {
 
             <div className="h-full w-full  items-center justify-center overflow-hidden pt-8">
       <BoxReveal boxColor={"#ffff"} duration={0.5}>
-        <p className="2xl:text-7xl xl:text-6xl lg:text-5xl lg:mb-2 md:text-4xl md:mb-4 text-2xl font-semibold">
+        <p className="2xl:text-7xl xl:text-6xl lg:text-5xl lg:mb-2 md:text-4xl md:mb-4 text-2xl font-head font-bold">
         Easy Customize Website and User Interface Designer<span className="text-[#ef33f3]">.</span>
         </p>
       </BoxReveal>
  
       <BoxReveal boxColor={"#ffff"} duration={0.5}>
-        <h2 className=" 2xl:text-xl xl:text-xl lg:text-xl md:text-sm text-sm mt-4">
+        <h2 className=" 2xl:text-xl xl:text-xl lg:text-xl md:text-sm text-sm mt-4 font-pragraph">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus nihil ea asperiores architecto, facere in porro iure sunt molestiae inventore. Illum vitae repellendus, 
           
         </h2>
@@ -54,7 +54,7 @@ const Herosection = () => {
       </BoxReveal> */}
  
       <BoxReveal boxColor={"#ffff"} duration={0.5}>
-      <button className='mt-8 bg-white py-4 px-8 rounded-full text-purple-500 font-bold lg:text-2xl md:text-lg text-xs'>SEND REQUEST</button>
+      <button className='mt-8 bg-white py-4 px-8 rounded-full text-purple-500 font-bold 2xl:text-2xl xl:text-2xl lg:text-2xl md:text-lg text-xs  font-pragraph'>SEND REQUEST</button>
       </BoxReveal>
     </div>
         </div>

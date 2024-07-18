@@ -15,18 +15,18 @@ const Features = () => {
       </div>
       <div className='2xl:my-auto xl:my-24 lg:my-[30%] md:my-32 my-[40%] lg:mx-auto'>
         <div>
-            <h1 className='2xl:text-6xl font-bold xl:text-6xl lg:text-6xl md:text-5xl md:mt-[-50px] mt-[-50px] text-3xl '>We Make Your Brand More Powerful</h1>
+            <h1 className='2xl:text-6xl font-bold xl:text-6xl lg:text-6xl md:text-5xl md:mt-[-50px] mt-[-50px] text-3xl font-head'>We Make Your Brand More Powerful</h1>
         </div>
-        <div className='my-14 xl:my-10 2xl:text-3xl xl:text-3xl lg:text-3xl md:text-3xl text-xl'>
+        <div className='my-14 xl:my-10 2xl:text-3xl xl:text-3xl lg:text-3xl md:text-3xl text-xl font-pragraph'>
         Lorem ipsum dolor sit amet, adipiscing elit Nulla accumsan, metus tellus site.
         </div>
         <ul>
-            <li className=' my-8 flex 2xl:text-3xl xl:text-3xl lg:text-3xl md:text-3xl text-xl'><span><img src={check} className='mt-1.5 mr-4 h-6 ' alt="" /></span>24/7 Traffic Updates</li>
-            <li className='my-8 flex 2xl:text-3xl xl:text-3xl lg:text-3xl md:text-3xl text-xl'><span><img src={check} className='mt-1.5 mr-4 h-6' alt="" /></span>Keyword Rankings</li>
-            <li className='my-8 flex 2xl:text-3xl xl:text-3xl lg:text-3xl md:text-3xl text-xl'><span><img src={check} className='mt-1.5 mr-4 h-6' alt="" /></span>Reputation Management Brief</li>
+            <li className=' my-8 flex 2xl:text-3xl xl:text-3xl lg:text-3xl md:text-3xl text-xl font-pragraph'><span><img src={check} className='mt-1.5 mr-4 h-6 ' alt="" /></span>24/7 Traffic Updates</li>
+            <li className='my-8 flex 2xl:text-3xl xl:text-3xl lg:text-3xl md:text-3xl text-xl font-pragraph'><span><img src={check} className='mt-1.5 mr-4 h-6' alt="" /></span>Keyword Rankings</li>
+            <li className='my-8 flex 2xl:text-3xl xl:text-3xl lg:text-3xl md:text-3xl text-xl font-pragraph'><span><img src={check} className='mt-1.5 mr-4 h-6' alt="" /></span>Reputation Management Brief</li>
         </ul>
         <div>
-            <button className='bg-white 2xl:text-2xl xl:text-2xl lg:text-3xl text-lg text-black py-4 px-8 my-4'>Read More</button>
+            <button className='bg-white 2xl:text-2xl xl:text-2xl lg:text-3xl text-lg text-black py-4 px-8 my-4 font-head'>Read More</button>
         </div>
       </div>
       </div>

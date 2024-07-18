@@ -65,13 +65,13 @@ const ReviewCard = ({
       <div className="flex flex-row  items-center gap-2">
         <img className="rounded-full" width="50" height="50" alt="" src={img} />
         <div className="flex flex-col">
-          <figcaption className="text-sm xl:text-xl font-medium dark:text-white">
+          <figcaption className="text-sm xl:text-xl font-medium dark:text-white font-head">
             {name}
           </figcaption>
-          <p className="text-xs  font-medium dark:text-white/40">{username}</p>
+          <p className="text-xs  font-medium dark:text-white/40 font-pragraph">{username}</p>
         </div>
       </div>
-      <blockquote className="mt-2 2xl:text-xl  xl:text-2xl">{body}</blockquote>
+      <blockquote className="mt-2 2xl:text-xl  xl:text-2xl font-head">{body}</blockquote>
     </figure>
   );
 };
@@ -82,8 +82,8 @@ const Testimonials = () => {
   return (
     <div>
     {/* Blog */}
-    <h1 className='2xl:text-7xl xl:text-7xl lg:text-7xl md:text-7xl text-5xl text-center 2xl:my-6  mx-6 xl:mt-8   font-bold '>Our Latest Blog</h1>
-      <p className='2xl:text-4xl xl:text-4xl lg:text-4xl md:text-4xl text-2xl text-center mx-6 mt-8 mb-16'>Lorem ipsum dolor sit consectetur adipiscing elit.
+    <h1 className='2xl:text-7xl xl:text-7xl lg:text-7xl md:text-7xl text-5xl text-center 2xl:my-6  mx-6 xl:mt-8   font-bold font-head'>Our Latest Blog</h1>
+      <p className='2xl:text-4xl xl:text-4xl lg:text-4xl md:text-4xl text-2xl text-center mx-6 mt-8 mb-16 font-pragraph'>Lorem ipsum dolor sit consectetur adipiscing elit.
       Curabitur placerat tellus site.</p>
       <div className='flex flex-wrap gap-10 px-10 py-10 h-auto w-full   place-content-center'>
       <Blog/>
@@ -94,7 +94,7 @@ const Testimonials = () => {
       <div>
 
       {/* Testimolials */}
-      <h2 className="text-center text-4xl font-bold tracking-tight text-gray-900 2xl:text-7xl 2xl:pb-2 xl:pb-10 xl:text-7xl sm:text-5xl lg:text-7xl lg:pb-10 md:text-6xl md:pb-10 pb-10 2xl:mt-36 lg:mt-24 xl:mt-20 md:mt-20 mt-20 mx-11">
+      <h2 className="text-center text-4xl font-bold tracking-tight text-gray-900 2xl:text-7xl 2xl:pb-2 xl:pb-10 xl:text-7xl sm:text-5xl lg:text-7xl lg:pb-10 md:text-6xl md:pb-10 pb-10 2xl:mt-36 lg:mt-24 xl:mt-20 md:mt-20 mt-20 mx-11 font-head">
 
       Read trusted reviews from our customers
     </h2>

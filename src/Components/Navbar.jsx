@@ -12,7 +12,7 @@ const Navbar = () => {
             <img src={Logo} alt="Logo" className='h-10'  />
         </div>
         <div className='py-2 text-xl font-bold 2xl:block xl:block lg:block md:block sm:hidden hidden'>
-            <ul className='flex gap-6'>
+            <ul className='flex gap-6 font-head'>
                 <li>Home</li>
                 <li>About</li>
                 <li>Blog</li>

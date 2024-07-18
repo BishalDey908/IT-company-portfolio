@@ -13,8 +13,8 @@ const Services2 = () => {
         <div className='w-full flex place-content-center'>
             <img src={icon3} alt="" />
         </div>
-            <p className='text-center 2xl:text-3xl xl:text-5xl lg:text-3xl md:text-3xl text-3xl font-bold my-6'>Business</p>
-            <p className='text-center 2xl:text-lg xl:text-2xl lg:text-xl md:text-lg '>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora eius dicta, a excepturi neque quia ipsam itaque earum similique </p>
+            <p className='text-center 2xl:text-3xl xl:text-5xl lg:text-3xl md:text-3xl text-3xl font-bold my-6 font-head'>Business</p>
+            <p className='text-center 2xl:text-lg xl:text-2xl lg:text-xl md:text-lg font-pragraph'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora eius dicta, a excepturi neque quia ipsam itaque earum similique </p>
             <div className='w-full grid place-content-center my-6'>
             <img src={check} alt="" className='h-10' />
             </div>
@@ -23,8 +23,8 @@ const Services2 = () => {
         <div className='w-full flex place-content-center'>
             <img src={icon4} alt="" />
         </div>
-            <p className='text-center 2xl:text-3xl xl:text-5xl lg:text-3xl md:text-3xl text-3xl font-bold my-6'>Consulting</p>
-            <p className='text-center 2xl:text-lg xl:text-2xl lg:text-xl md:text-lg'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora eius dicta, a excepturi neque quia ipsam itaque earum similique </p>
+            <p className='text-center 2xl:text-3xl xl:text-5xl lg:text-3xl md:text-3xl text-3xl font-bold my-6 font-head'>Consulting</p>
+            <p className='text-center 2xl:text-lg xl:text-2xl lg:text-xl md:text-lg font-pragraph'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora eius dicta, a excepturi neque quia ipsam itaque earum similique </p>
             <div className='w-full grid place-content-center my-6'>
             <img src={check} alt="" className='h-10' />
             </div>
@@ -33,8 +33,8 @@ const Services2 = () => {
         <div className='w-full flex place-content-center'>
             <img src={icon5} alt="" />
         </div>
-            <p className='text-center 2xl:text-3xl xl:text-5xl lg:text-3xl md:text-3xl text-3xl font-bold my-6'>Finance</p>
-            <p className='text-center 2xl:text-lg xl:text-2xl lg:text-xl md:text-lg'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora eius dicta, a excepturi neque quia ipsam itaque earum similique </p>
+            <p className='text-center 2xl:text-3xl xl:text-5xl lg:text-3xl md:text-3xl text-3xl font-bold my-6 font-head'>Finance</p>
+            <p className='text-center 2xl:text-lg xl:text-2xl lg:text-xl md:text-lg font-pragraph'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora eius dicta, a excepturi neque quia ipsam itaque earum similique </p>
             <div className='w-full grid place-content-center my-6'>
             <img src={check} alt="" className='h-10' />
             </div>
