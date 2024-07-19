@@ -24,7 +24,7 @@ import TextCarosel from '@/Components/TextCarosel'
 import BrandCarosel from '@/Components/BrandCarosel'
 // import { Review } from '@/Components/Review'
 
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+
 
 
 
@@ -43,6 +43,7 @@ const Home = () => {
       {/* <Review/> */}
       
       <Navbar/>
+      
       <Herosection/>
       <Try/>
       <TextCarosel/>
