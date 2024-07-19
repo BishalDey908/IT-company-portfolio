@@ -22,6 +22,8 @@ import 'aos/dist/aos.css'
 import Try from '@/Components/Try'
 import TextCarosel from '@/Components/TextCarosel'
 import BrandCarosel from '@/Components/BrandCarosel'
+import { LandingPage } from '@/Components/LandingPage'
+
 // import { Review } from '@/Components/Review'
 
 
@@ -43,7 +45,7 @@ const Home = () => {
       {/* <Review/> */}
       
       <Navbar/>
-      
+      {/* <LandingPage/> */}
       <Herosection/>
       <Try/>
       <TextCarosel/>

@@ -28,7 +28,7 @@ const Navbar = () => {
           </ul>
         </div>
 
-        <div className="group flex h-auto w-20 cursor-pointer items-center justify-center rounded-3xl  p-2  2xl:hidden xl:hidden lg:hidden md:hidden sm:block my-auto ml-6 block">
+        <div className="group flex h-auto w-20 cursor-pointer items-center justify-center rounded-3xl  p-2  2xl:hidden xl:hidden lg:hidden md:hidden sm:block my-auto ml-6 ">
           <div className="space-y-2">
             {button ? (
               <MdClose
@@ -49,7 +49,7 @@ const Navbar = () => {
         </div>
       </nav>
       {button && (
-        <div className="bg-gray-400 h-[100vh] bg-opacity-90 pt-20 pr-6 mt-2 w-full slide-in-left z-50">
+        <div className="bg-gray-400 h-[100vh] bg-opacity-90 pt-20 pr-6 mt-2 w-auto slide-in-left z-50">
           <ul className="grid  place-content-center gap-28 text-2xl text-center font-bold font-head ">
             <li>
               <a href="#home" onClick={()=>setButton(false)}>Home</a>

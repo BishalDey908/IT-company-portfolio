@@ -2,6 +2,9 @@ import { useEffect, useState } from 'react'
 import './App.css'
 import Home from './Pages/Home'
 import {  HashLoader } from 'react-spinners'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+
+import { LandingPage } from './Components/LandingPage'
 
 
 
@@ -17,8 +20,9 @@ function App() {
   },[])
   return (
     <>
-    {
-      loading ? <div className='h-[100vh] w-full bg-black'>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={loading ? <div className='h-[100vh] w-full bg-black'>
     
     <HashLoader color={"#fb00ff"}
       loading={true}
@@ -28,8 +32,11 @@ function App() {
       aria-label="Loading Spinner"
       data-testid="loader"/>
   
-  </div> : <Home />
-    }
+  </div> :<LandingPage/>}/>
+        <Route path='/home' element={<Home/>}/>
+      </Routes>
+    </BrowserRouter>
+    
     
     </>
   )
