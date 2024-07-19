@@ -4,7 +4,7 @@ const Portfolio = () => {
   // max-w-screen-2xl
   return (
     <div className=''>
-    <section className="bg-zinc-50 overflow-hidden">
+    <section className="bg-zinc-50 overflow-hidden" id='portfolio'>
  <div className="2xl:w-[90%] xl:w-[90%] lg:w-[95%] md:w-[90%] w-[80%] 2xl:h-[100vh] xl:h-[80vh] 2xl:max-w-screen-3xl px-8 md:px-12 mx-auto py-12 lg:py-24 space-y-24  flex flex-col justify-center">
     <div className='2xl:my-24 xl:my-24 lg:my-12 md:my-10 my-12 2xl:mt-0 xl:mt-0 lg:mt-0 md:mt-0 '>
         <h1 className='2xl:text-6xl xl:text-7xl lg:text-6xl md:text-6xl text-5xl font-bold text-center font-head'>Take A Look Our Portfolio</h1>

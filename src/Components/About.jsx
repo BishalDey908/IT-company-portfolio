@@ -8,7 +8,7 @@ const About = () => {
   
   return (
     <div className=' 2xl:px-20 xl:mt-20 h-full ' >
-      <div className='2xl:flex 2xl:flex-row 2xl:gap-16 xl:gap-16 lg:gap-16 md:gap-16 gap-12 justify-center py-20 md:flex-col lg:px-36 md:px-16 flex-col' data-aos="zoom-out" data-aos-offset="350">
+      <div className='2xl:flex 2xl:flex-row 2xl:gap-16 xl:gap-16 lg:gap-16 md:gap-16 gap-12 justify-center py-20 md:flex-col lg:px-36 md:px-16 flex-col' id='about' data-aos="zoom-out" data-aos-offset="350">
         <div className=' '>
             <img src={about} alt="" srcset="" className='2xl:h-[555px] 2xl:w-[750px] xl:h-[550px] xl:w-[550px] lg:w-[450px] md:w-[450px] h-80 mx-auto lg:mx-auto lg:mb-20 md:h-[500px] md:mb-20 md:mt-[-10px]  md:mx-auto mb-16 aboutimg1' />
         </div>

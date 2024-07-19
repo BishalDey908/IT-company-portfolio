@@ -24,6 +24,7 @@ import TextCarosel from '@/Components/TextCarosel'
 import BrandCarosel from '@/Components/BrandCarosel'
 // import { Review } from '@/Components/Review'
 
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 
 
@@ -39,14 +40,15 @@ const Home = () => {
   },[])
   return (
     <div>
-
+      {/* <Review/> */}
+      
       <Navbar/>
       <Herosection/>
-      {/* <InfiniteCrousel/> */}
       <Try/>
       <TextCarosel/>
-      {/* <Review/> */}
       <About/>
+      
+
       <div data-aos="zoom-out" data-aos-offset="350">
       <Services/>
       <Services2/>
@@ -60,7 +62,7 @@ const Home = () => {
       <BrandCarosel/>
 
       
-      <div className="conatct">
+      <div className="conatct" id='contact'>
       <div className=' h-96 lg:h-auto md:h-80 bg-white py-16 '>
       
       <div className='lg:pt-12'>

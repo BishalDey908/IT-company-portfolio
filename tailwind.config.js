@@ -73,7 +73,7 @@ module.exports = {
       },
       fontFamily:{
         head: "Poppins",
-        pragraph: "Mulish"
+        pragraph: "Josefin Sans"
       }
     },
   },

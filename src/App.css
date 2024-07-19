@@ -1,6 +1,10 @@
+*{
+  scroll-behavior: smooth;
+}
 
 body{
     overflow-x: hidden;
+    
 }
 /* #Navbar{
   overflow-x: hidden;
