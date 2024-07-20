@@ -19,12 +19,12 @@ export const TextRevealByWord = ({
     (<div ref={targetRef} className={cn("relative z-0 h-[200vh]", className)}>
       <div
         className={
-          "sticky top-0 mx-auto flex h-[35%]  max-w-4xl items-center bg-transparent px-[1rem] py-[2rem]"
+          "sticky top-0 mx-auto flex h-[35%] z-0  max-w-4xl items-center bg-transparent px-[1rem] py-[2rem]"
         }>
         <p
           ref={targetRef}
           className={
-            "flex flex-wrap p-5 font-bold text-black/20 dark:text-white/20 md:p-8 md:text-8xl md:mt-32 lg:p-10  2xl:text-8xl xl:text-9xl xl:mt-36 lg:text-9xl text-6xl mt-[155px] lg:mt-36"
+            "flex flex-wrap p-5 font-bold text-black/20 dark:text-white/20 md:p-8 md:text-8xl md:mt-32 lg:p-10  2xl:text-8xl xl:text-9xl xl:mt-36 lg:text-9xl text-6xl mt-[155px] lg:mt-36 z-0"
           }>
           {words.map((word, i) => {
             const start = i / words.length;

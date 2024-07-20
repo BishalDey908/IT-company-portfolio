@@ -3,18 +3,21 @@ import bgcta from "../assets/Img/herosection pic_files/bg-cta.png";
 import Countup from "react-countup"
 import scrollTriger from "react-scroll-trigger"
 import ScrollTrigger from "react-scroll-trigger";
+import SimpleParallax from "simple-parallax-js";
 
 const ChoosingUs = () => {
   const[counter,setCounter]=useState(false)
   return (
     <div className="text-white ">
       <div className="relative h-full">
+      <SimpleParallax scale={2} delay={0.4}>
         <img
           src={bgcta}
           alt=""
           srcset=""
           className="w-full  object-cover 2xl:h-screen xl:h-[1055px] lg:h-[1055px] md:h-[1355px] h-[220vh]"
         />
+        </SimpleParallax>
         <div className="absolute top-0 w-full h-auto 2xl:my-20 xl:my-34 lg:my-36 md:mt-16 mt-20 ">
           <div className="2xl:text-7xl xl:text-7xl text-center font-bold  md:text-6xl text-4xl px-4 font-head">
             Facts For Choosing Us

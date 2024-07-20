@@ -6,9 +6,11 @@ import BoxReveal from './magicui/box-reveal'
 
 const Herosection = () => {
   return (
-    <div className='text-white '>
+    <div className='text-white z-50 '>
+   
       <div className='relative h-screen w-full bg-red-400 z-0' id="home">
-        <img src={HeroSecPic} alt="" srcset="" className='w-full h-full  object-cover' />
+        <img src={HeroSecPic} alt="" srcset="" className='w-full h-full  object-cover ' />
+      
       
       
       <div className='h-auto  w-[80%] absolute   left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] '>
