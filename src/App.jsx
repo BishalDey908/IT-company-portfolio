@@ -7,7 +7,6 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { LandingPage } from './Components/LandingPage'
 
 
-
 function App() {
   const[loading,setLoading]=useState(false)
   useEffect(()=>{
@@ -20,6 +19,8 @@ function App() {
   },[])
   return (
     <>
+    
+
     <BrowserRouter>
       <Routes>
         <Route path='/' element={loading ? <div className='h-[100vh] w-full bg-black'>
